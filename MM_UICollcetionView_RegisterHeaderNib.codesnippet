@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mm_UICollcetionView_RegisterHeaderNib</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[_collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([&lt;#Class#&gt; class]) bundle:nil] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:NSStringFromClass([&lt;#Class#&gt; class])];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A064E1AF-3F8E-42DC-8E5D-06CC982303EF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>头尾(辅助)视图Nib方式创建的时候的注册</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UICollcetionView-&gt;头尾(辅助)视图Nib注册</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

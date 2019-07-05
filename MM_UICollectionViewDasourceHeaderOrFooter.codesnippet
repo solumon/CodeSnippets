@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mm_UICollectionViewDasourceHeaderOrFooter</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
+    &lt;#Class#&gt; *&lt;#name#&gt; = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSection&lt;#kind#&gt; withReuseIdentifier:NSStringFromClass([&lt;#Class#&gt; class]) forIndexPath:indexPath];
+    
+        &lt;#Code#&gt;
+    
+    return &lt;#name#&gt;;
+}
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section{
+    return CGSizeMake(&lt;#number#&gt;, &lt;#number#&gt;);
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AACD2210-EDA1-4345-9D88-DA6FAC7A1C3C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>头尾(辅助)视图代理实现,返回相应的视图</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UICollectionView-&gt;头尾(辅助)视图代理实现</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

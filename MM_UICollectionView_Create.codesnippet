@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mm_UICollectionView_Create</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UICollectionView *)collectionView{
+    if (!_collectionView) {
+        &lt;#LayoutClass#&gt; *flowLayout = [[&lt;#LayoutClass#&gt; alloc] init];
+        
+        flowLayout.minimumLineSpacing = 0.0f;//每行的最小间距
+        flowLayout.minimumInteritemSpacing = 0.0f;//每列的最小间距
+        
+        _collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:flowLayout];
+        _collectionView.backgroundColor = &lt;#Color#&gt;;
+        _collectionView.delegate = self;
+        _collectionView.dataSource = self;
+        [_collectionView registerClass:[&lt;#CellClass#&gt; class] forCellWithReuseIdentifier:NSStringFromClass([&lt;#CellClass#&gt; class])];
+        
+        [_collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([&lt;#CellClass#&gt; class]) bundle:nil]
+          forCellWithReuseIdentifier:NSStringFromClass([&lt;#CellClass#&gt; class])];
+        [_collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([&lt;#ViewClass#&gt; class]) bundle:nil]
+          forSupplementaryViewOfKind:UICollectionElementKindSection&lt;#HeaderOrFooter#&gt; withReuseIdentifier:NSStringFromClass([&lt;#ViewClass#&gt; class])];
+    }
+    return _collectionView;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CDD42E9E-4525-4393-8DA5-E936F860F4E2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UICollectionView懒加载模板</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UICollectionView-&gt;懒加载创建</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

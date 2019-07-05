@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mm_UICollectionView_RegisterCellClass</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[_collectionView registerClass:[&lt;#Class#&gt; class] forCellWithReuseIdentifier:NSStringFromClass([&lt;#Class#&gt; class])];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1E02B9A2-9126-4CBF-A894-E6BB64D68507</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>注册Cell,Class方式创建</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UICollectionView-&gt;注册Cell(Class)</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

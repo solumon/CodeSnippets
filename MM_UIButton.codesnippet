@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mm_UIButton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton *&lt;#name#&gt; = ({
+        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.backgroundColor = &lt;#Color#&gt;;
+        //点击事件
+    [btn addTarget:self action:@selector(&lt;#Action#&gt;:) forControlEvents:UIControlEventTouchUpInside];
+        //标题
+    [btn setTitle:&lt;#title#&gt; forState:UIControlStateNormal];
+    [btn setTitleColor:&lt;#Color#&gt; forState:UIControlStateNormal];
+    [btn.titleLabel setFont:[UIFont systemFontOfSize:&lt;#size#&gt;]];
+        //图片
+    [btn setImage:[UIImage imageNamed:&lt;#imgName#&gt;] forState:UIControlStateNormal];
+        [btn setBackgroundImage:[UIImage imageNamed:&lt;#imgName#&gt;] forState:UIControlStateNormal];
+        btn.clipsToBounds = YES;
+        
+        btn;
+    });
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0D4F86B2-36ED-4941-B8A6-5A97DF1258D4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIButton简易创建,快速创建一个button</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIButton-&gt;代码模板</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

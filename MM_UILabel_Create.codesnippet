@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mm_UILabel_Create</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UILabel *&lt;#name#&gt; = ({
+        UILabel *lb = [[UILabel alloc] init];
+    lb.backgroundColor = &lt;#Color#&gt;;
+        lb.textColor = &lt;#Color#&gt;;
+    lb.font = [UIFont systemFontOfSize:&lt;#size#&gt;];
+        lb.text = @"";
+        lb.textAlignment = NSTextAlignmentCenter;
+        lb.lineBreakMode = NSLineBreakByTruncatingTail;
+        lb.numberOfLines = 0;
+        lb.adjustsFontSizeToFitWidth = YES;
+        lb;
+    });
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>ABCD0467-7FC9-4382-8C10-95C31FD6939A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UILabel简易创建,快速创建一个label</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UILabel-&gt;代码模板</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

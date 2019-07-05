@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mm_UICollectionVIewDatasource</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
+    return &lt;#number#&gt;;
+}
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+    return &lt;#number#&gt;;
+}
+
+- (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    &lt;#Class#&gt; *cell = [self.collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([&lt;#Class#&gt; class]) forIndexPath:indexPath];
+    
+    &lt;#Code#&gt;
+    
+    return cell;
+}
+
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
+    return CGSizeMake(&lt;#weith#&gt;, 44);
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D9B48D93-7000-4207-98C8-7F19924800EE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UICollectionVIew常用几个基础数据源方法</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UICollectionVIew-&gt;基础数据源</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

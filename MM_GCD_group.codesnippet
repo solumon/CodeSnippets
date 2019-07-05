@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mm_GCD_group</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//@property(nonatomic, strong) dispatch_group_t group;
+dispatch_group_t group = dispatch_group_create();
+dispatch_queue_t q = dispatch_get_global_queue(0, 0);
+
+dispatch_group_enter(group);
+
+dispatch_group_leave(group);
+
+dispatch_group_notify(group, q, ^{
+    dispatch_async(dispatch_get_main_queue(), ^{
+        &lt;#code#&gt;
+    });
+    });</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3E33BD9A-6D97-49D9-9762-14B20EBB4506</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>多接口并发使用</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>队列组</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

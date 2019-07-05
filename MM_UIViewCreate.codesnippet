@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mm_UIView_Create</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIView *&lt;#name#&gt; = ({
+        UIView *view = [[UIView alloc] init];
+    view.backgroundColor = &lt;#Color#&gt;;
+        view.layer.cornerRadius = 3;
+        view.clipsToBounds = YES;
+        view;
+    });</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F6B36F4F-9C7B-4003-906F-A459F7BB2138</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIView简易创建,快速创建一个VIew</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIView-&gt;代码模板</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
